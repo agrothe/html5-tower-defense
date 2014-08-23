@@ -1,0 +1,72 @@
+/*
+    Document   : css/game．css
+    Created on : 2014-08-15 09:54 PM
+    Author     : agrothe
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+#stage {
+  width:200px;
+  height:300px;
+  background:#999;
+  margin:0px;
+  padding:0px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+#scorebox {
+  width:55px;
+  height:15px;
+  background:transparent;
+  border:#000 solid 1px;
+  margin:0px;
+  padding:1px;
+  position:absolute;
+  top:0px;
+  left:130px;
+  text-align: right;
+  font-size: 12px;
+}
+
+body{
+    position:absolute;
+    width:250px;
+    height:300px;
+}
+
+#toolbox {
+  width:45px;
+  height:300px;
+  background:#666;
+  margin:0px;
+  padding:0px;
+  position:absolute;
+  top:0px;
+  left:205px;
+}
+
+.enemy, .defense {
+  position:absolute;
+  width:25px;
+  height:25px;
+  background:url('https://dl.dropboxusercontent.com/u/6801572/ship.png') center center;
+  margin:0px;
+  padding:0px;
+}
+
+.defense {
+ background:url('https://dl.dropboxusercontent.com/u/6801572/tower.png') center center;
+}
+
+.bullet{
+  position:absolute;
+  width:2px;
+  height:2px;
+  background:#000;
+  margin:0px;
+  padding:0px;
+}
